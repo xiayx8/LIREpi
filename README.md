@@ -1,1 +1,1 @@
-# epitope-prediction
+# LRiEpi
