@@ -7,7 +7,9 @@ This work mainly focuses on the task of B-cell epitope prediction. The model sim
 The overall process is as follows: 
 
 ### Structural Feature Extraction
-`piston/data_prepare/data_prepare.py` - This script will automatically invoke other scripts in this folder, namely triangulating the molecular surface, mapping the 3D fine-grained vertices to a 2D grid, and obtaining the structural representation in npy format.
+```python
+piston/data_prepare/data_prepare.py
+This script will automatically invoke other scripts in this folder, namely triangulating the molecular surface, mapping the 3D fine-grained vertices to a 2D grid, and obtaining the structural representation in npy format.
 There are two ways to run this script:
 Run a single PPI：
 python ../piston infer --pdb_dir ./ --ppi 3V6O_A,3V6O_C --out_dir ./path_to_output_directory 
