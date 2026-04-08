@@ -45,7 +45,7 @@ Extract protein structural features through the Vision Transformer model.
 ```python
 python computeesm.py
 ```
-Extract sequence features through the ESM-2 protein large language model 
+Extract sequence features through the ESM-2 protein large language model.
 
 ### Training
 ```python
