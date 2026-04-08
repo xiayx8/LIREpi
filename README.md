@@ -1,6 +1,5 @@
 # LRiEpi
 
-## Project Introduction
 This work mainly focuses on the task of B-cell epitope prediction. The model simultaneously utilizes the structural and sequence information of proteins: Firstly, it extracts structural features using MaSIF and Vision Transformer, and sequence features using ESM-2; then, it fuses the structural and sequence features through the FiLM modulation mechanism, and finally feeds them into an equivariant graph neural network to complete the epitope prediction. Compared with methods that only use single-modal features, this framework can more fully represent the information of antigenic residues, thereby improving the prediction performance. 
 
 ## Method Process
