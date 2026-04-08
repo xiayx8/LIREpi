@@ -49,7 +49,7 @@ Extract sequence features through the ESM-2 protein large language model
 
 ### Training
 ```python
-Run python 3graph.py
+python 3graph.py
 ```
 simultaneously input protein structure features and sequence features, implement multimodal feature fusion within this script, conduct self-distillation training, and finally predict epitope sites through an equivariant graph neural network. 
 
