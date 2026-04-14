@@ -57,5 +57,5 @@ simultaneously input protein structure features and sequence features, implement
 ```python
 python double_input37.py
 ```
-simultaneously input the structural and sequence features of two chains, and the pre-trained LRiEpi method ultimately predicts whether the two chains bind. 
+simultaneously input the structural and sequence features of two chains, and the pre-trained LIREpi  method ultimately predicts whether the two chains bind. 
  
